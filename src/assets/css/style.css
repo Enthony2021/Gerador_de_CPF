@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 400; 700 & display = swap');
+
+:root {
+    --primary-color: rgb(143, 117, 31);
+    --primary-color-dark: rgb(116, 19, 116);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var( --primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.cpf-gerado {
+    font-size: 2em;
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.set-cpf {
+    align-self: center;
+    border: 1px solid black;
+    width: 70px;
+    height: 25px;
+    box-shadow: 5px 5px 7px var(--primary-color);
+    background-color: rgb(219, 170, 36);
+}
+
+.set-cpf:hover {
+    background-color: brown;
+    color: white;
+}
